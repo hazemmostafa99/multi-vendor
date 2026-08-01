@@ -47,8 +47,8 @@ export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="h-20 flex border-b justify-between font-medium bg-white">
-      <Link href="/" className="pl-6 flex items-center">
+    <nav className="h-20 flex border-b justify-between font-medium bg-white px-3 lg:px-6">
+      <Link href="/" className="flex items-center">
         <span className={cn("text-5xl font-semibold", poppins.className)}>
           funroad
         </span>
