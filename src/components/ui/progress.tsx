@@ -17,7 +17,7 @@ function Progress({
       className={cn(
         "flex flex-wrap gap-3",
         // Modified classes
-        "border bg-transparent rounded-2xl",
+        "border bg-white rounded-2xl",
         className,
       )}
       {...props}

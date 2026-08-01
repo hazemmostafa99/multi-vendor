@@ -1,0 +1,4 @@
+
+route group => (home)
+layout: doesn't re-render when navogate to another pages
+use client: Okay, now when we use use client, it's, we need to say it's opening the portal for a client component, not converting the component to a client component because it's a bit. And there is an important thing, when we add use client and something like layout, yeah, it will make the components that render on it as a client component. But the children components, it will not affect it.it's still having a server portal.
